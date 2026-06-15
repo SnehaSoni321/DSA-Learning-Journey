@@ -20,6 +20,9 @@ class CountOddAndEven {
             oddCount++;
         }
       }
+
+      // return new int[]{oddCount, evenCount};
+      
       System.out.println("odd: "+ oddCount);
       System.out.println("even: "+ evenCount);
 

@@ -3,7 +3,7 @@ package Array;
 public class FirstOccurrence {
 
 
-    /* First Occurrence index print-> x phle bar kis index par mila */
+    /* First Occurrence index print-> x phli bar kis index par mila */
 
     static int firstOccurrence(int arr[], int x){
         for(int i = 0; i<arr.length; i++) {
