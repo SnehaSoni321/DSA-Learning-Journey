@@ -11,6 +11,17 @@ I work on a few problems every day and keep the solutions organized by topic.
 
 ## Daily Practice Log
 
+### 2026-06-17
+
+Problems completed today:
+
+- `CheckTwoArrayAreEqual.java` (updated)
+- `CopyArray.java`
+- `MissingNumbers.java`
+- `ReverseSameArray.java`
+- `FindLength.java`
+- `RemoveSpaces.java`
+
 ### 2026-06-15
 
 Problems completed today:
