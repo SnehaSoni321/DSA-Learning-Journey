@@ -1,5 +1,7 @@
 public class CountUpperCase {
 
+    /* count Uppercase to a string */
+
     static int countuppercase(String s) {
         int count = 0;
         for(int i = 0; i<s.length(); i++) {
