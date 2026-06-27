@@ -20,6 +20,12 @@ public class StringUtility {
         return ch;
     }
 
+    public static int inputInt() {
+        System.out.println("Enter index: "); {
+          //  int n = sc.next().charAt(0);
+            return sc.nextInt();
+        }
+    }
     public static void printString(String str) {
 
         System.out.println(str);

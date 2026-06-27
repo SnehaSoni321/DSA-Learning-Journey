@@ -15,8 +15,6 @@ public class ConvertUppercase {
        return result;
     }
     
-    
-
     public static void main(String[] args) {
       
         String str = StringUtility.inputString();

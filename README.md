@@ -11,6 +11,19 @@ I work on a few problems every day and keep the solutions organized by topic.
 
 ## Daily Practice Log
 
+### 2026-06-27
+
+Problems completed today:
+
+- `Array/AscendingOrder.java`
+- `Array/DescendingOrder.java`
+- `Array/PrimeNumber.java`
+- `Array/Reverse.java` (updated)
+- `String/ConvertUppercase.java` (updated)
+- `String/Frequency.java`
+- `String/ReplaceCharacter.java`
+- `String/StringUtility.java` (updated)
+
 ### 2026-06-17
 
 Problems completed today:
