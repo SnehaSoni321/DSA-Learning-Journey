@@ -5,6 +5,9 @@ public class RemoveDuplicate {
     /* Remove Duplicates in array */
 
     static void removeDuplicte(int arr[]){
+
+    System.out.println("Array After Removing Duplicates: ");
+
         for(int i = 0; i<arr.length; i++) {
 
             boolean isDuplicate = false;
@@ -15,7 +18,7 @@ public class RemoveDuplicate {
                 }
             }
             if(!isDuplicate) {
-                System.out.println(arr[i] + " ");
+                System.out.print(arr[i] + " ");
             }
 
         }
@@ -25,8 +28,6 @@ public class RemoveDuplicate {
     public static void main(String[] args) {
 
         int arr[] = ArrayUtility.inputArray();
-
-        System.out.println("Array After Removing Duplicates: ");
 
         removeDuplicte(arr);
         

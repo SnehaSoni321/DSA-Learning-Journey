@@ -6,7 +6,7 @@ public class ReplaceCharacter {
         String result = "";
 
         if(index < 0 || index >= str.length()){
-            return "invali indes: ";
+            return "Invali index";
         }
 
         for(int i = 0; i<str.length(); i++) {

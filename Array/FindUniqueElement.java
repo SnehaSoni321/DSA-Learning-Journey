@@ -1,7 +1,7 @@
 package Array;
 
 public class FindUniqueElement {
-    static int findUnique(int arr[]) {
+    static void findUnique(int arr[]) {
        
             for(int i = 0; i<arr.length; i++) {
             int count = 0;
@@ -11,19 +11,19 @@ public class FindUniqueElement {
                     count++;
                 }
             }
+            
             if(count == 1) {
-                return arr[i];
+                System.out.println("Unique element: " + arr[i]);
             }
           }
-            return -1;
+            
         }
        
     
     public static void main(String[] args) {
         int arr[] = ArrayUtility.inputArray();
 
-        int unique = findUnique(arr);
-        System.out.println("Unique Element: " + unique);
+         findUnique(arr);
 
     }
     

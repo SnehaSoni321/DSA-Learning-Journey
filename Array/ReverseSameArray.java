@@ -11,7 +11,7 @@ public class ReverseSameArray {
             arr[start] = arr[end];
             arr[end] = temp;
         }
-        ArrayUtility.printArray(arr);
+        ArrayUtility.printArray(arr);  //[2,3,5,6]
     }
     
     public static void main(String[] args) {

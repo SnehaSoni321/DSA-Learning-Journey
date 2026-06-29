@@ -7,9 +7,25 @@ I work on a few problems every day and keep the solutions organized by topic.
 
 - `Array/` - array-based problems and utilities
 - `String/` - string-based problems and utilities
-- `utility/` - shared helpers, if needed
+- `Patterns/` - pattern-based programs and practice exercises
+- `Test/` - additional practice and experiment files
 
 ## Daily Practice Log
+
+### 2026-06-29
+
+Problems completed today:
+
+- `Array/FindUniqueElement.java`
+- `Array/PrintElementAtEvenIndex.java`
+- `Array/RemoveDuplicate.java`
+- `Array/Reverse.java`
+- `Array/ReverseSameArray.java`
+- `String/CountDigits.java`
+- `String/Palindrome.java`
+- `String/ReplaceCharacter.java`
+- `Patterns/RightAngledTriangle.java`
+- `Patterns/TrianglePattern.java`
 
 ### 2026-06-27
 
