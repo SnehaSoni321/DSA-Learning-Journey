@@ -22,6 +22,7 @@ public static int[] inputArray() {
 }
 
 public static int inputValue(int x) {
+    System.out.println("Enter Number: ");
     int a = sc.nextInt();
     return a;
 }
