@@ -1,3 +1,4 @@
+package TwoPointerInString;
 
 import java.util.Scanner;
 

@@ -18,7 +18,7 @@ public static int[] inputArray() {
 
     } 
 
-    return arr;           
+    return arr;
 }
 
 public static int inputValue(int x) {

@@ -1,83 +1,39 @@
 # DSA Learning Journey
 
-This repository contains my daily Data Structures and Algorithms practice in Java.
-I work on a few problems every day and keep the solutions organized by topic.
+This repository contains my Java-based practice solutions for Data Structures and Algorithms.
+I organize problems by topic and keep expanding the collection as I learn new concepts.
 
-## Folder Structure
+## Repository Overview
 
-- `Array/` - array-based problems and utilities
-- `String/` - string-based problems and utilities
-- `Patterns/` - pattern-based programs and practice exercises
-- `Test/` - additional practice and experiment files
+The repository currently includes the following folders:
 
-## Daily Practice Log
+- `Array/` - array-based problems, utilities, and search-related exercises
+- `Constructor/` - constructor-related examples
+- `Oops/` - object-oriented programming practice including abstraction, encapsulation, inheritance, and polymorphism
+- `Patterns/` - pattern printing programs
+- `String/` - string manipulation and character-counting problems
+- `Test/` - practice and test programs
+- `ThisAndSuper/` - examples demonstrating `this` and `super`
+- `TowPointersInArray/` - two-pointer array problems
+- `TwoPointerInString/` - two-pointer string problems
 
-### 2026-06-29
+## Representative Files
 
-Problems completed today:
+Some of the current practice files include:
 
-- `Array/FindUniqueElement.java`
-- `Array/PrintElementAtEvenIndex.java`
-- `Array/RemoveDuplicate.java`
-- `Array/Reverse.java`
-- `Array/ReverseSameArray.java`
-- `String/CountDigits.java`
-- `String/Palindrome.java`
-- `String/ReplaceCharacter.java`
+- `Array/ArrayUtility.java`, `Array/Reverse.java`, `Array/TwoSumPairWithGivenSum.java`
+- `String/Palindrome.java`, `String/ReverseString.java`, `String/StringUtility.java`
+- `Oops/Abstract/Ex1.java`
 - `Patterns/RightAngledTriangle.java`
-- `Patterns/TrianglePattern.java`
+- `TowPointersInArray/ReverseArray.java`
 
-### 2026-06-27
+## Progress Tracking
 
-Problems completed today:
+- New practice files are added regularly.
+- Problems are grouped by topic to keep the repository structured and easy to follow.
 
-- `Array/AscendingOrder.java`
-- `Array/DescendingOrder.java`
-- `Array/PrimeNumber.java`
-- `Array/Reverse.java` (updated)
-- `String/ConvertUppercase.java` (updated)
-- `String/Frequency.java`
-- `String/ReplaceCharacter.java`
-- `String/StringUtility.java` (updated)
+## Recent Update
 
-### 2026-06-17
+- Added new folders for OOP concepts, constructor examples, pattern programs, and two-pointer practice.
+- Expanded the existing array and string problem sets with additional exercises.
 
-Problems completed today:
-
-- `CheckTwoArrayAreEqual.java` (updated)
-- `CopyArray.java`
-- `MissingNumbers.java`
-- `ReverseSameArray.java`
-- `FindLength.java`
-- `RemoveSpaces.java`
-
-### 2026-06-15
-
-Problems completed today:
-
-- `CheckTwoArrayAreEqual.java`
-- `FindDifferenceInMaxAndMin.java`
-- `MissingNumber.java`
-- `RemoveDuplicate.java`
-- `SumOfEvenIndex.java`
-- `SumOfOddIndex.java`
-- `CountSpecialCharacters.java`
-- `ReverseString.java`
-- `SearchCharacter.java`
-- `countWords.java`
-
-## How I Track Progress
-
-Each day I add 4 to 5 new problems, grouped by topic, and update this log with the files I completed.
-
-## Future Entry Template
-
-### YYYY-MM-DD
-
-Problems completed today:
-
-- `Problem1.java`
-- `Problem2.java`
-- `Problem3.java`
-- `Problem4.java`
-- `Problem5.java`
