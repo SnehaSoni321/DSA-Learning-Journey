@@ -14,9 +14,9 @@ public static int[] inputArray() {
     System.out.println("Enter Element: ");
 
     for(int i = 0; i<arr.length; i++) {
-       arr[i] = sc.nextInt();
+        arr[i] = sc.nextInt();
 
-    } 
+    }
 
     return arr;
 }

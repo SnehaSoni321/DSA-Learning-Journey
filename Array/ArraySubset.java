@@ -10,6 +10,9 @@ public class ArraySubset {
 
     static boolean arraySubset(int a[], int b[]) {
          // Your code here
+         if(a.length == b.length) {
+            return true;
+         }
         for(int i = 0; i<a.length; i++) {
             for(int j = 0; j<b.length; j++) {
                 if(a[i] == b[j]){
