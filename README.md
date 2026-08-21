@@ -21,7 +21,7 @@ The repository currently includes the following folders:
 
 Some of the current practice files include:
 
-- Array/ArrayUtility.java, Array/Reverse.java, Array/TwoSumPairWithGivenSum.java
+- Array/ArrayUtility.java, Array/MoveAllZerosToEnd.java, Array/Reverse.java, Array/TwoSumPairWithGivenSum.java
 - String/Palindrome.java, String/ReverseString.java, String/StringUtility.java
 - Oops/Abstract/Ex1.java, Oops/Abstract/Methods/Ex1.java
 - Patterns/RightAngledTriangle.java
@@ -36,4 +36,5 @@ Some of the current practice files include:
 
 - Added new abstract-method practice under Oops/Abstract/Methods/
 - Expanded the OOP section with additional example programs.
+- Added an array exercise that moves all zero values to the end while preserving the order of non-zero values.
 
