@@ -1,40 +1,108 @@
 # DSA Learning Journey
 
-This repository contains my Java-based practice programs for Data Structures and Algorithms and object-oriented programming concepts.
-I organize problems by topic and keep expanding the collection as I learn new concepts.
+I am a student learning Java, Data Structures and Algorithms, and object-oriented programming one exercise at a time. I practice by choosing a topic, working through the logic, writing and testing a solution, and then recording what I worked on here. Some files are still exercises in progress while I learn.
 
-## Repository Overview
+## Folder Structure
 
-The repository currently includes the following folders:
+- `Array/` - array-based problems and utilities
+- `Level1/` - beginner number and loop exercises
+- `Level1Array/` - array searching and problem-solving practice
+- `String/` - string-based problems and utilities
+- `Patterns/` - pattern-based programs and practice exercises
+- `Oops/` - object-oriented programming practice
+- `Test/` - additional practice and experiment files
 
-- Array/ - array-based problems, utilities, and search-related exercises
-- Constructor/ - constructor-related examples
-- Oops/ - object-oriented programming practice including abstraction, encapsulation, inheritance, and polymorphism
-- Patterns/ - pattern printing programs
-- String/ - string manipulation and character-counting problems
-- Test/ - practice and test programs
-- ThisAndSuper/ - examples demonstrating this and super
-- TowPointersInArray/ - two-pointer array problems
-- TwoPointerInString/ - two-pointer string problems
+## Daily Practice Log
 
-## Representative Files
+### 2026-10-05
 
-Some of the current practice files include:
+More practice added:
 
-- Array/ArrayUtility.java, Array/MoveAllZerosToEnd.java, Array/Reverse.java, Array/TwoSumPairWithGivenSum.java
-- String/Palindrome.java, String/ReverseString.java, String/StringUtility.java
-- Oops/Abstract/Ex1.java, Oops/Abstract/Methods/Ex1.java
-- Patterns/RightAngledTriangle.java
-- TowPointersInArray/ReverseArray.java
+- `Level1/BenjaminBulls.java`
+- `Level1/CountDigitsInANumber.java`
+- `Level1/Fibonacci.java`
+- `Level1/InverseOfANumber.java`
+- `Level1/PrimeNumberPrintAll.java`
+- `Level1/PrimeOrNot.java`
+- `Level1/PrimeOrNot1.java`
+- `Level1/PrimeOrNot2.java`
+- `Level1/PrintDigitsOfaNumber.java`
+- `Level1/RotateANumber.java`
+- `Level1/TakeInput.java`
+- `Level1Array/FindElement.java`
+- `Level1Array/SpanOfAnArray.java`
 
-## Progress Tracking
+Still working on:
 
-- New practice files are added regularly.
-- Problems are grouped by topic to keep the repository structured and easy to follow.
+- `Level1Array/BarChart.java`
+- `Oops/ClassesAndObjectProject/ATM_Machine.java`
 
-## Recent Update
+### 2026-06-29
 
-- Added new abstract-method practice under Oops/Abstract/Methods/
-- Expanded the OOP section with additional example programs.
-- Added an array exercise that moves all zero values to the end while preserving the order of non-zero values.
+Problems completed today:
 
+- `Array/FindUniqueElement.java`
+- `Array/PrintElementAtEvenIndex.java`
+- `Array/RemoveDuplicate.java`
+- `Array/Reverse.java`
+- `Array/ReverseSameArray.java`
+- `String/CountDigits.java`
+- `String/Palindrome.java`
+- `String/ReplaceCharacter.java`
+- `Patterns/RightAngledTriangle.java`
+- `Patterns/TrianglePattern.java`
+
+### 2026-06-27
+
+Problems completed today:
+
+- `Array/AscendingOrder.java`
+- `Array/DescendingOrder.java`
+- `Array/PrimeNumber.java`
+- `Array/Reverse.java` (updated)
+- `String/ConvertUppercase.java` (updated)
+- `String/Frequency.java`
+- `String/ReplaceCharacter.java`
+- `String/StringUtility.java` (updated)
+
+### 2026-06-17
+
+Problems completed today:
+
+- `CheckTwoArrayAreEqual.java` (updated)
+- `CopyArray.java`
+- `MissingNumbers.java`
+- `ReverseSameArray.java`
+- `FindLength.java`
+- `RemoveSpaces.java`
+
+### 2026-06-15
+
+Problems completed today:
+
+- `CheckTwoArrayAreEqual.java`
+- `FindDifferenceInMaxAndMin.java`
+- `MissingNumber.java`
+- `RemoveDuplicate.java`
+- `SumOfEvenIndex.java`
+- `SumOfOddIndex.java`
+- `CountSpecialCharacters.java`
+- `ReverseString.java`
+- `SearchCharacter.java`
+- `countWords.java`
+
+## How I Track Progress
+
+I group exercises by topic and update this log with what I practice. I also keep unfinished exercises separate so I can come back to them as I improve.
+
+## Future Entry Template
+
+### YYYY-MM-DD
+
+Problems completed today:
+
+- `Problem1.java`
+- `Problem2.java`
+- `Problem3.java`
+- `Problem4.java`
+- `Problem5.java`
