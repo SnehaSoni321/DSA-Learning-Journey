@@ -5,17 +5,12 @@ I am a student learning Java, Data Structures and Algorithms, and object-oriente
 ## Folder Structure
 
 - `Array/` - array-based problems and utilities
-- `AdvanceFunctions/` - JavaScript function and array-method exercises
 - `Level1/` - beginner number and loop exercises
 - `Level1Array/` - array searching and problem-solving practice
 - `String/` - string-based problems and utilities
 - `Patterns/` - pattern-based programs and practice exercises
 - `Oops/` - object-oriented programming practice
 - `Test/` - additional practice and experiment files
-
-## JavaScript Practice
-
-- `AdvanceFunctions/ForEachLoop.html` - compares indexed loops with `forEach()` and demonstrates callback iteration.
 
 ## Daily Practice Log
 
