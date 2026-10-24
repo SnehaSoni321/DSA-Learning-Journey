@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JSON</title>
+</head>
+<body>
+
+  <script>
+    let product = {
+      name: "TShirt",
+      price: 789,
+      rating: {
+        stars: 4.5,
+        noOfReviews: 432,
+      },
+    };
+    console.log(typeof product);
+    console.log(product);
+
+    // object to string
+    let str = JSON.stringify(product);
+    console.log(typeof str);
+    console.log(str);
+
+    // js object == json object (isliye direct product ko () mei pass kiya)
+    //string format == json format
+
+    //string to object
+    let newProduct = JSON.parse(str);
+    console.log(typeof newProduct);
+    console.log(newProduct);
+
+  </script>
+  
+</body>
+</html>

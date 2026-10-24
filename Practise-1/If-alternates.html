@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Document</title>
+</head>
+<body>
+
+  
+
+  <script>
+
+    //  Ternary operator
+    let age = 32;
+    // let result;
+    // if(age > 18){
+    //   result = 'Adult';
+    // }else {
+    //   result = 'Kid';
+    // }
+
+    let result = age > 18 ? 'Adult' : 'Kid';
+    console.log(result);
+
+    //Guard operator(left value ko check karta h ki falsy h ki nhi)  -> aagr user ko uski age dalne bole h or usne age nhi di to default age 18 print hoga
+
+    // let userAge;
+    // let finalAge = userAge || 18;
+    // console.log(userAge);
+    // console.log(finalAge)
+
+    // Default operator (ye only null or undeifined ko hi falsy mana bss) -> 
+
+     let userAge ;
+    let finalAge = userAge ?? 22;
+    console.log(userAge);
+    console.log(finalAge)
+    
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Local Storage</title>
+</head>
+<body>
+
+  <script>
+    // how normaly stored the data in localStorage
+
+    // localStorage.setItem('Name', 'KG Coding');
+    // localStorage.setItem('Price', '23544');
+
+    //agar mei // comment bhi kar du phir bhi Name ya Price ko check kar sakti hu kyuki ye localStorage mei save ho chuka h ham getItem se check kar sakte h
+
+    console.log(localStorage.getItem('Name'));
+
+     let product = {
+      name: "TShirt",
+      price: 789,
+      rating: {
+        stars: 4.5,
+        noOfReviews: 432,
+      },
+    };
+
+    // ye ache se stored nhi kar payega kyuki ye object ko string mei ache se convert nhi kar paya or ek garbage value save kar di
+    // localStorage.setItem('product', product);
+    // console.log(localStorage.getItem('product'));
+
+     localStorage.setItem('product', JSON.stringify(product));
+    console.log(localStorage.getItem('product'));
+
+    let product2 = JSON.parse(localStorage.getItem('product'));
+    console.log(product2);
+
+    // remove data
+    localStorage.removeItem('Price');
+
+    // pura localStorage clear karne ke liye
+    // localStorage.clear();
+
+
+  </script>
+  
+</body>
+</html>

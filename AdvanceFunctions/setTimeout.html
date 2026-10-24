@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SetTimeout</title>
+</head>
+<body>
+<!--
+  setTimeout runs once the code
+-->
+  <script>
+
+    let alarm = () => console.log('Subaha ho gayi, uth jaao.')
+    
+   
+   // yaha alarm() call nhi karna h hum as a argument pss kar rahe h setTimeout usko khud call kar lega
+    setTimeout(alarm, 2000);
+    console.log('Alaram set');
+
+     setTimeout( () => console.log('Subaha ho gayi, uth jaao.'), 5000);
+    
+// alarm timerID set karta h 
+
+let timerId = setTimeout(alarm,1000);
+console.log(`Alaram set with timerID: ${timerId}`);
+clearTimeout(timerId);
+  </script>
+  
+</body>
+</html>

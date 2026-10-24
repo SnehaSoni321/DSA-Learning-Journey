@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    //1.
+    // let product = {
+    //   company: 'Mango',
+    //   itemName: 'Cotton striped t-shirt',
+    //   price: 861
+    // };
+    // //Destructuring
+    // // let company = product.company
+    // // console.log(company)
+
+    // //is same as
+    // let { company } = product;
+    // console.log(company)
+
+
+    //2. property shorthand
+    // let price = 861;
+    // let product = {
+    //   company: 'Mango',
+    //   itemName: 'Cotton striped t-shirt',
+    //   price: price
+    // };
+    // console.log(product)
+
+    // is same as
+    //  let price = 861;
+    // let product = {
+    //   company: 'Mango',
+    //   itemName: 'Cotton striped t-shirt',
+    //   price
+    // };
+    // console.log(product)
+
+    //3. 
+    // let product = {
+    //   company: 'Mango',
+    //   itemName: 'Cotton striped t-shirt',
+    //   displayPrice: function() {
+    //     return `$${this.price.toFixed(2)}`;
+    //   }
+    // };
+    // console.log(product);
+
+     let product = {
+      company: 'Mango',
+      itemName: 'Cotton striped t-shirt',
+      displayPrice() {
+        return `$${this.price.toFixed(2)}`;
+      }
+    };
+    console.log(product);
+  </script>
+</body>
+</html>

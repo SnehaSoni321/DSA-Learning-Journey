@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>setInterval</title>
+</head>
+<body>
+
+  <script>
+    // setInterval -> runs repeatedly
+
+     let alarm = () => console.log(`Subaha ho gayi, uth jaao. ${new Date()}`)
+
+       let intervalId = setInterval(alarm, 1000);
+      setTimeout(() =>  clearInterval(intervalId), 5000);
+
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>For Loop</title>
+</head>
+<body>
+  <script>
+    
+    for(let num = 0; num<= 10; num++) {
+      console.log(num);
+
+    }
+
+    // Accumulator pattern
+
+    let nums = [1,2,3,4,5,2,3];
+    let sum = 0;
+    for(let i = 0; i< nums.length; i++) {
+      sum += nums[i];
+    }
+
+    console.log(`Sum of the array is ${sum}`);
+
+
+
+    let squares = [];
+    for(let i = 0; i<nums.length; i++){
+    //  squares[i] = nums[i] * nums[i];
+    squares.push(nums[i] * nums[i]);
+    }
+    console.log(squares)
+
+
+  </script>
+</body>
+</html>
